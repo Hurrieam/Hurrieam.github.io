@@ -1,0 +1,32 @@
+#panel,
+#flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    text-indent: 2em;
+    text-align: left;
+}
+
+video {
+    width: 75%;
+    height: 75%;
+}
+
+* {
+    font-family: "微软雅黑";
+}
+
+input[type=button] {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+}
