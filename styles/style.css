@@ -13,3 +13,8 @@ body {
 .new::after {
     content: " 🆕";
 }
+
+h2::before,
+h2::after {
+    content: "⬇️";
+}
