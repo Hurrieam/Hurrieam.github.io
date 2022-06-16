@@ -20,9 +20,4 @@ $(document).ready(() => {
     $("#panel").slideDown("slow");
     $("#flip").fadeOut("slow");
   });
-
-  $(".play").click(() => {
-    document.querySelector("video")?.play();
-    $(".play").fadeOut("slow");
-  });
 });
