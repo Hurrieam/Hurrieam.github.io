@@ -1,0 +1,15 @@
+body {
+    font-family: "Times New Roman", "微软雅黑";
+}
+
+.new {
+    color: red;
+}
+
+.new::before {
+    content: "🆕 ";
+}
+
+.new::after {
+    content: " 🆕";
+}
