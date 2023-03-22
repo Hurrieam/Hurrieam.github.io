@@ -1,5 +1,5 @@
 "use strict";
-$(document).ready(function () {
+$(function () {
     var ctx = document.querySelector(".context");
     var ctxStr = "";
     for (var i = 0; i < 10000; i++) {

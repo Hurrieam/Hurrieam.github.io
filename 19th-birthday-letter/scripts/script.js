@@ -1,5 +1,5 @@
 "use strict";
-$(document).ready(function () {
+$(function () {
     // password checker
     for (;;) {
         var password = prompt("此网站小曹已查看哦，请输入小曹专属口令～\n输入“b”返回主页");
@@ -15,7 +15,7 @@ $(document).ready(function () {
             alert("口令错误～");
         }
     }
-    $("#flip").click(function () {
+    $("#flip").on('click', function () {
         $("#panel").slideDown("slow");
         $("#flip").fadeOut("slow");
     });

@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(() => {
     const ctx: HTMLElement = document.querySelector(".context") as HTMLElement;
 
     let ctxStr: String = "";

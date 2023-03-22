@@ -19,7 +19,7 @@ video {
 }
 
 * {
-    font-family: "微软雅黑";
+    font-family: "微软雅黑", serif;
 }
 
 input[type=button] {
