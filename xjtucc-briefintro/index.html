@@ -13,13 +13,36 @@
 
     <script src="https://cdn.staticfile.org/vue/3.2.36/vue.global.min.js"></script>
 
+    <style>
+        #panel, #flip {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+        }
+
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#flip").on('click', function () {
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
 </head>
 <body>
 
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-            <a href="https://github.com/Hurrieam/Hurrieam.github.io/blob/main/xjtucc-briefintro/index.html">查看代码</a>
+            <div id="flip">查看代码</div>
+            <div id="panel">
+                <img src="./code.png" alt="code">
+            </div>
         </div>
     </div>
     <div class="jumbotron">
