@@ -1,0 +1,23 @@
+{
+  "name": "hurrieam.github.io",
+  "version": "1.0.0",
+  "description": "individual website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i && npx tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hurrieam/Hurrieam.github.io.git"
+  },
+  "author": "hurrieam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hurrieam/Hurrieam.github.io/issues"
+  },
+  "homepage": "https://github.com/Hurrieam/Hurrieam.github.io#readme",
+  "dependencies": {
+    "@types/jquery": "^3.5.19",
+    "typescript": "^5.2.2"
+  }
+}

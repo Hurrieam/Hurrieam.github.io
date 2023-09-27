@@ -1,20 +1,7 @@
-body {
-    font-family: "Times New Roman", "微软雅黑", serif;
-}
-
-.new {
-    color: red;
-}
-
 .new::before {
     content: "🆕 ";
 }
 
 .new::after {
     content: " 🆕";
-}
-
-h2::before,
-h2::after {
-    content: "⬇️";
 }
