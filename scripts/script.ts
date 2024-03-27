@@ -55,24 +55,6 @@ $(() => {
             is_latest: false
         },
         {
-            desc: "小曹的19岁生日小作文",
-            git_repo: "19th-birthday-letter",
-            url: "./19th-birthday-letter/index.html",
-            is_latest: false
-        },
-        {
-            desc: "🉑️喜欢你🌶️",
-            git_repo: "heart",
-            url: "./heart/index.html",
-            is_latest: false
-        },
-        {
-            desc: "一周年礼物D",
-            git_repo: "annipres-d",
-            url: "./annipres-d/index.html",
-            is_latest: false
-        },
-        {
             desc: "敏感词检测系统",
             git_repo: "sensitivewordjudge.git",
             url: "https://github.com/Hurrieam/sensitivewordjudge",
